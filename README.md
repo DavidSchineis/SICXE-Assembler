@@ -40,8 +40,6 @@ gcc main.c opcodes.c symbols.c directives.c errors.c
 ```
 * input.sic is the SIC/XE file the user wishes to process (try your own!)
 * test0.sic is an example file with no errors
-* test1.sic, test2.sic, and test3.sic contain one (1) error respectively
-
 ## Sample Input
 ```
 COPY    START   1000 
