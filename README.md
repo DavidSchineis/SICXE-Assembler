@@ -19,6 +19,7 @@ Both format 3 and format 4 have six-bit flag values in them, consisting of the f
 * p: Program counter-relative flag
 * e: Format 4 instruction flag
 
+Learn more about SIC/XE [here](https://en.wikipedia.org/wiki/Simplified_Instructional_Computer).
 ## Passes
 Pass 1:
 * Processes SIC/XE source code file
@@ -29,3 +30,18 @@ Pass 2:
 * Processes directives/opcodes
 * Translates instructions
 * Writes to object and listing files
+
+
+## How to Compile and Run
+GCC Compiler
+```
+gcc main.c opcodes.c symbols.c directives.c errors.c
+./.a.out input.sic
+```
+* input.sic is the SIC/XE file the user wishes to process (try your own!)
+* test0.sic is an example file with no errors
+* test1.sic, test2.sic, and test3.sic contain one (1) error respectively
+
+## Sample Input
+
+## Sample Output
