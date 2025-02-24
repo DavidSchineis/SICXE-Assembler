@@ -1,5 +1,5 @@
 # SIC/XE Assembler
->A simple SIC/XE two-pass assembler implemented in C and completed during my systems programming class.
+>A SIC/XE two-pass assembler implemented in C.
 
 ## Features
 
